@@ -10,6 +10,12 @@ Integer age;
         this.milk = milk;
     }
 
+    private String milk;
+
+    public Cat(String milk) {
+        this.milk = milk;
+    }
+
     @Override
     public String whatIsYourName() {
         return "My name is Cat";
