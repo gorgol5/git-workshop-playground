@@ -15,4 +15,8 @@ record Person(String name, BigDecimal salary) {
     public Boolean doYouHaveABike() {
         return true;
     }
+
+    public Boolean doYouLikePizza() {
+        return true;
+    }
 }
